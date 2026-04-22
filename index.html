@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LuxBarber</title>
+  <meta
+    name="description"
+    content="Преміальний барбершоп із сучасним сервісом, атмосферою приватного клубу та онлайн-записом."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#hero" aria-label="LuxBarber Home">
+          <span class="brand-mark">LB</span>
+          <span class="brand-text">
+            <strong>LuxBarber</strong>
+            <small>Premium Grooming Club</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-label="Відкрити меню" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Основна навігація">
+          <a href="#services">Послуги</a>
+          <a href="#gallery">Галерея</a>
+          <a href="#team">Команда</a>
+          <a href="#reviews">Відгуки</a>
+          <a href="#contact">Контакти</a>
+          <a class="nav-cta" href="#booking">Записатися</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal reveal-left">
+            <span class="eyebrow">Преміальний барбершоп у Києві</span>
+            <h1>Твій стиль починається тут</h1>
+            <p>
+              Преміальні стрижки, догляд за бородою та сервіс найвищого рівня —
+              атмосфера приватного клубу, де кожна деталь продумана для чоловіків,
+              що цінують якість.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#booking">Записатися онлайн</a>
+              <a class="button button-secondary" href="#services">Переглянути послуги</a>
+            </div>
+          </div>
+
+          <div class="hero-media reveal reveal-right">
+            <div class="hero-image-frame floating-card">
+              <img
+                src="./hero.jpg"
+                alt="Преміальний інтер'єр барбершопу"
+                loading="eager"
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="advantages section">
+        <div class="container">
+          <div class="section-heading reveal reveal-up">
+            <h2>Переваги</h2>
+          </div>
+
+          <div class="advantage-grid">
+            <article class="feature-card reveal reveal-up" data-delay="0">
+              <img
+                src="./feature-mastery.jpg"
+                alt="Майстер працює з бородою клієнта"
+                loading="lazy"
+              >
+              <div>
+                <h3>Майстерність</h3>
+                <p>Досвідчені барбери, що працюють як художники — індивідуальний підхід до кожного клієнта.</p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal reveal-up" data-delay="120">
+              <img
+                src="./feature-premium.jpg"
+                alt="Стильний портрет барбера з інструментами"
+                loading="lazy"
+              >
+              <div>
+                <h3>Преміум-продукти</h3>
+                <p>Тільки професійні бренди: догляд, стайлінг і лікування волосся та бороди.</p>
+              </div>
+            </article>
+
+            <article class="feature-card reveal reveal-up" data-delay="240">
+              <img
+                src="./feature-comfort.jpg"
+                alt="Інтер'єр барбершопу"
+                loading="lazy"
+              >
+              <div>
+                <h3>Комфорт</h3>
+                <p>Приватні кабіни, relax-зона та напої — сервіс клубного рівня для кожного візиту.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <div class="container services-layout">
+          <div class="services-media reveal reveal-left">
+            <div class="services-image-frame floating-card">
+              <img
+                src="./services.jpg"
+                alt="Преміальна атмосфера салону"
+                loading="lazy"
+              >
+            </div>
+          </div>
+
+          <div class="services-copy">
+            <div class="section-heading reveal reveal-up">
+              <h2>Послуги та ціни</h2>
+            </div>
+
+            <div class="services-grid">
+              <article class="price-card reveal reveal-up" data-delay="0">
+                <h3>Класична стрижка</h3>
+                <p>650 грн — індивідуальний стиль, укладка та поради по догляду.</p>
+              </article>
+
+              <article class="price-card reveal reveal-up" data-delay="120">
+                <h3>Фейд / Барбер-бленд</h3>
+                <p>900 грн — чисті лінії, точна робота машинкою та ножицями.</p>
+              </article>
+
+              <article class="price-card reveal reveal-up" data-delay="240">
+                <h3>Догляд за бородою</h3>
+                <p>450 грн — стрижка, моделюнг, бальзам і гаряча рушникова процедура.</p>
+              </article>
+            </div>
+
+            <article class="price-card price-card-wide reveal reveal-zoom">
+              <h3>Пакет VIP</h3>
+              <p>2200 грн — пріоритетний запис, приватна кімната, масаж голови, напій.</p>
+            </article>
+
+            <p class="section-note reveal reveal-up">
+              Усі процедури виконуються з використанням преміальної косметики.
+              Для точного розрахунку — консультація майстра при записі.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section" id="gallery">
+        <div class="container">
+          <div class="section-heading reveal reveal-up">
+            <h2>Галерея робіт</h2>
+            <p>Колекція останніх стрижок, бородарських трансформацій і атмосферних фото салону.</p>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-card reveal reveal-up" data-delay="0">
+              <img
+                src="./gallery-cut.jpg"
+                alt="Коротка чоловіча стрижка"
+                loading="lazy"
+              >
+            </figure>
+            <figure class="gallery-card reveal reveal-up" data-delay="90">
+              <img
+                src="./gallery-beard.jpg"
+                alt="Гоління бороди"
+                loading="lazy"
+              >
+            </figure>
+            <figure class="gallery-card reveal reveal-up" data-delay="180">
+              <img
+                src="./gallery-process.jpg"
+                alt="Барбер працює над зачіскою"
+                loading="lazy"
+              >
+            </figure>
+            <figure class="gallery-card reveal reveal-up" data-delay="120">
+              <img
+                src="./gallery-interior.jpg"
+                alt="Інтер'єр барбершопу"
+                loading="lazy"
+              >
+            </figure>
+            <figure class="gallery-card reveal reveal-up" data-delay="240">
+              <img
+                src="./gallery-client.jpg"
+                alt="Стрижка клієнта"
+                loading="lazy"
+              >
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="team section" id="team">
+        <div class="container">
+          <div class="section-heading reveal reveal-up">
+            <h2>Наша команда</h2>
+          </div>
+
+          <div class="team-grid">
+            <article class="team-card reveal reveal-left">
+              <img
+                src="./team-1.jpg"
+                alt="Олександр — головний барбер"
+                loading="lazy"
+              >
+              <div>
+                <h3>Олександр — Головний барбер</h3>
+                <p>10 років досвіду, спеціалізується на класичних та сучасних чоловічих стрижках.</p>
+              </div>
+            </article>
+
+            <article class="team-card reveal reveal-up">
+              <img
+                src="./team-2.jpg"
+                alt="Ігор — спеціаліст з бороди"
+                loading="lazy"
+              >
+              <div>
+                <h3>Ігор — Спеціаліст з бороди</h3>
+                <p>Майстер моделювання бороди, лікувальні процедури та гоління небезпечною бритвою.</p>
+              </div>
+            </article>
+
+            <article class="team-card reveal reveal-right">
+              <img
+                src="./team-3.jpg"
+                alt="Дмитро — стиліст"
+                loading="lazy"
+              >
+              <div>
+                <h3>Дмитро — Стиліст</h3>
+                <p>Укладки для подій, фотосесій та створення образу під ваш стиль життя.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews section" id="reviews">
+        <div class="container">
+          <div class="section-heading reveal reveal-up">
+            <h2>Відгуки клієнтів</h2>
+          </div>
+
+          <div class="review-grid">
+            <blockquote class="review-card reveal reveal-left">
+              <p>«Найвищий рівень сервісу — атмосфера, що заспокоює, і результат, який помічають.»</p>
+              <footer>— Андрій, підприємець</footer>
+            </blockquote>
+
+            <blockquote class="review-card reveal reveal-right">
+              <p>«VIP-пакет — ідеальне рішення перед важливими подіями. Дякую команді за увагу до деталей.»</p>
+              <footer>— Олексій, публічна особа</footer>
+            </blockquote>
+          </div>
+
+          <p class="reviews-note reveal reveal-up">
+            Надійні відгуки від клієнтів, що цінують час та стиль. Додайте свій досвід — ми цінуємо зворотний зв'язок.
+          </p>
+        </div>
+      </section>
+
+      <section class="booking section" id="booking">
+        <div class="container booking-layout">
+          <div class="booking-copy reveal reveal-left">
+            <div class="section-heading">
+              <h2>Записатися</h2>
+            </div>
+            <p>
+              Швидка онлайн-форма або пріоритетний дзвінок — оберіть зручний спосіб запису.
+              Ми підтверджуємо бронювання миттєво і пам'ятаємо про ваші побажання.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="mailto:hello@luxbarber.ua">Записатися онлайн</a>
+              <a class="button button-secondary" href="tel:+380671234567">Зателефонувати</a>
+            </div>
+          </div>
+
+          <aside class="schedule-card reveal reveal-right">
+            <h3>Графік</h3>
+            <ul>
+              <li>Пн–Пт: 09:00 — 21:00</li>
+              <li>Сб: 10:00 — 18:00</li>
+              <li>Неділя — вихідний</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="container contact-layout">
+          <div class="contact-copy reveal reveal-left">
+            <div class="section-heading">
+              <h2>Контакти та локація</h2>
+            </div>
+
+            <div class="contact-details">
+              <p>Адреса: м. Київ, вул. Шевченка, 12</p>
+              <p>Телефон: +38 (0XX) XXX-XXXX</p>
+              <p>E-mail: hello@luxbarber.ua</p>
+            </div>
+
+            <p class="contact-note">
+              Під'їзд: паркінг поруч, окрема вхідна зона для VIP-клієнтів.
+            </p>
+          </div>
+
+          <div class="contact-media reveal reveal-right">
+            <div class="contact-image-frame floating-card">
+              <img
+                src="./contact.jpg"
+                alt="Сучасний інтер'єр барбершопу"
+                loading="lazy"
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="info-banner reveal reveal-up">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2Zm0 4a1.25 1.25 0 1 1-1.25 1.25A1.25 1.25 0 0 1 12 6Zm1.5 11h-3v-1.5h.75v-4H10.5V10h3v5.5h.75Z"/>
+            </svg>
+            <p>Потрібна приватна бронь поза графіком? Напишіть на e-mail — ми знайдемо зручний час.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section">
+      <div class="container">
+        <div class="section-heading footer-heading reveal reveal-up">
+          <h2>Підписка та футер</h2>
+        </div>
+
+        <div class="footer-grid">
+          <article class="footer-feature reveal reveal-up" data-delay="0">
+            <div class="footer-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2 4 5v6c0 5.25 3.4 10.18 8 11 4.6-.82 8-5.75 8-11V5Zm6 8.8c0 4.03-2.5 7.96-6 8.86-3.5-.9-6-4.83-6-8.86V6.42l6-2.25 6 2.25Z"/>
+              </svg>
+            </div>
+            <h3>Гарантія якості</h3>
+            <p>Повернення задоволення або корекція послуги наступного тижня.</p>
+          </article>
+
+          <article class="footer-feature reveal reveal-up" data-delay="120">
+            <div class="footer-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 7h-2.18A3 3 0 0 0 12 5.88 3 3 0 0 0 6.18 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Zm-8-1a1.5 1.5 0 0 1 1.5 1.5V7h-3v-.5A1.5 1.5 0 0 1 12 6ZM4 9h16v2.16l-8 4.37-8-4.37Zm0 9v-4.57l7.52 4.11a1 1 0 0 0 .96 0L20 13.43V18Z"/>
+              </svg>
+            </div>
+            <h3>Подарункові сертифікати</h3>
+            <p>Лімітовані набори — ідеальний подарунок для поціновувача стилю.</p>
+          </article>
+
+          <article class="footer-feature reveal reveal-up" data-delay="240">
+            <div class="footer-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 3.2-8 5.25L4 7.2V6h16ZM4 18V9l7.45 4.89a1 1 0 0 0 1.1 0L20 9v9Z"/>
+              </svg>
+            </div>
+            <h3>Підписка</h3>
+            <p>Отримуйте ексклюзивні пропозиції та запрошення на закриті події.</p>
+          </article>
+        </div>
+
+        <p class="copyright reveal reveal-up">
+          © 2026 LuxBarber — стиль, якого заслуговуєте ви. Політика конфіденційності · Умови
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    const header = document.querySelector('.site-header');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const siteNav = document.querySelector('.site-nav');
+    const navLinks = document.querySelectorAll('.site-nav a');
+    const revealItems = document.querySelectorAll('.reveal');
+
+    menuToggle.addEventListener('click', () => {
+      const isOpen = siteNav.classList.toggle('is-open');
+      menuToggle.classList.toggle('is-active', isOpen);
+      menuToggle.setAttribute('aria-expanded', String(isOpen));
+    });
+
+    navLinks.forEach((link) => {
+      link.addEventListener('click', () => {
+        siteNav.classList.remove('is-open');
+        menuToggle.classList.remove('is-active');
+        menuToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('is-scrolled', window.scrollY > 30);
+    });
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const delay = entry.target.dataset.delay || 0;
+          entry.target.style.transitionDelay = delay + 'ms';
+          entry.target.classList.add('is-visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.2 });
+
+    revealItems.forEach((item) => revealObserver.observe(item));
+  </script>
+</body>
+</html>
